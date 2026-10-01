@@ -1,0 +1,21 @@
+@host = http://localhost:5101
+
+GET {{host}}/books
+
+###
+GET {{host}}/books/1
+
+###
+POST {{host}}/loans
+Content-Type: application/json
+
+{ "bookId": 1, "memberName": "Jane" }
+
+###
+POST {{host}}/loans
+Content-Type: application/json
+
+{ "bookId": 1, "memberName": "Bob" }
+
+###
+POST {{host}}/loans/1/return

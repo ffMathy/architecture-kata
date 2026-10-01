@@ -1,0 +1,50 @@
+<Solution>
+  <Folder Name="/01-solid/">
+    <Project Path="01-solid/DependencyInversion/DependencyInversion.csproj" />
+    <Project Path="01-solid/InterfaceSegregation/InterfaceSegregation.csproj" />
+    <Project Path="01-solid/LiskovSubstitution/LiskovSubstitution.csproj" />
+    <Project Path="01-solid/OpenClosed/OpenClosed.csproj" />
+    <Project Path="01-solid/SingleResponsibility/SingleResponsibility.csproj" />
+  </Folder>
+  <Folder Name="/02-law-of-demeter/">
+    <Project Path="02-law-of-demeter/LawOfDemeter/LawOfDemeter.csproj" />
+  </Folder>
+  <Folder Name="/03-high-coupling/">
+    <Project Path="03-high-coupling/Coupling/Coupling.csproj" />
+  </Folder>
+  <Folder Name="/04-low-cohesion/">
+    <Project Path="04-low-cohesion/Cohesion/Cohesion.csproj" />
+  </Folder>
+  <Folder Name="/05-ntier-vs-vertical-slice/">
+    <Project Path="05-ntier-vs-vertical-slice/Library.NTier/Library.NTier.csproj" />
+    <Project Path="05-ntier-vs-vertical-slice/Library.VerticalSlice/Library.VerticalSlice.csproj" />
+  </Folder>
+  <Folder Name="/06-encapsulation/">
+    <Project Path="06-encapsulation/Encapsulation/Encapsulation.csproj" />
+  </Folder>
+  <Folder Name="/07-tell-dont-ask/">
+    <Project Path="07-tell-dont-ask/TellDontAsk/TellDontAsk.csproj" />
+  </Folder>
+  <Folder Name="/08-primitive-obsession/">
+    <Project Path="08-primitive-obsession/PrimitiveObsession/PrimitiveObsession.csproj" />
+  </Folder>
+  <Folder Name="/09-composition-over-inheritance/">
+    <Project Path="09-composition-over-inheritance/CompositionOverInheritance/CompositionOverInheritance.csproj" />
+  </Folder>
+  <Folder Name="/10-illegal-states-unrepresentable/">
+    <Project Path="10-illegal-states-unrepresentable/IllegalStates/IllegalStates.csproj" />
+  </Folder>
+  <Folder Name="/11-wrong-abstraction/">
+    <Project Path="11-wrong-abstraction/WrongAbstraction/WrongAbstraction.csproj" />
+  </Folder>
+  <Folder Name="/12-functional-core-imperative-shell/">
+    <Project Path="12-functional-core-imperative-shell/LateFees.Tests/LateFees.Tests.csproj" />
+    <Project Path="12-functional-core-imperative-shell/LateFees/LateFees.csproj" />
+  </Folder>
+  <Folder Name="/13-command-query-separation/">
+    <Project Path="13-command-query-separation/CommandQuerySeparation/CommandQuerySeparation.csproj" />
+  </Folder>
+  <Folder Name="/14-yagni/">
+    <Project Path="14-yagni/Yagni/Yagni.csproj" />
+  </Folder>
+</Solution>
